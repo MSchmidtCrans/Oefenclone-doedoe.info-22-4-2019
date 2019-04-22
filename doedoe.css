@@ -33,6 +33,7 @@ body {
       }
 
     .navbar li a:hover {
+      color: lightgrey;
     }
 
     .navbar img {
@@ -59,4 +60,7 @@ body {
   margin-right: 20%;
   padding-top:20px;
 }
+
+.dropdown {
+  position: relative;
 }

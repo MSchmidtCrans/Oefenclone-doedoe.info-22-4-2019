@@ -75,21 +75,55 @@ body {
         display: block
       }
 
-.Header {
+.intro-text {
   font-family: "Trebuchet MS", Times, serif;
-  background-color: rgba(0, 0, 0, 0.7);
-  .margin: 0px;
-  padding: 150px;
-  height: 100%;
-  width:100%;
-  text-align: center;
+  text-align:center;
+  background-color: rgba(77, 77, 77,0.8);
+  padding: 150px 120px;
 }
 
-.Header h1 {
+.intro-text h1 {
+  font-size: 65px;
   color: white;
-  width: 50%;
-  font-size: 70px;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding-top:20px;
+  margin: 0px 15% 5% 15%;
 }
+
+.top-button1 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(255, 80, 80);
+  border-radius: 5px;
+  padding: 14px 15px;
+  color: white;
+  min-width: 140px;
+  margin-right: 10px;
+  transition-duration: 0.8s;
+}
+
+.top-button2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(102, 255, 153);
+  border-radius: 5px;
+  padding: 14px 15px;
+  color: white;
+  min-width: 140px;
+  transition-duration: 0.8s;
+}
+
+.top-button1:hover, .top-button2:hover {
+  background-color: black;
+}
+
+.doedoes {
+  font-family: "Trebuchet MS", Times, serif;
+  color: #2e2e38;
+  text-align:center;
+  background-color: white;
+  padding: 80px;
+}
+
+.doedoes h2 {
+  font-size: 50px;
+  text-decoration-style: solid;
+  }

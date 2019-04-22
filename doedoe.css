@@ -75,7 +75,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
+.dropdown-link {
   text-align:left;
   display: block;
   font-family: "Trebuchet MS", Times, serif;
@@ -87,7 +87,7 @@ body {
   }
 }
 
-.dropdown-content a:hover {
+.dropdown-link:hover {
   color: red;
 }
 

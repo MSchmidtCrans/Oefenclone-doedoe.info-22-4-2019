@@ -61,6 +61,17 @@ body {
   padding-top:20px;
 }
 
-.dropdown {
-  position: relative;
+div.dropdown {
+  .position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  min-width: 150px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block
 }

@@ -21,7 +21,7 @@ body {
       float: right;
       }
 
-    .navbar li a {
+    .normal-link {
       display: block;
       font-family: "Trebuchet MS", Times, serif;
       font-size: : 18px;
@@ -32,7 +32,7 @@ body {
       text-decoration: none;
       }
 
-    .navbar li a:hover {
+    .normal-link:hover {
       color: lightgrey;
     }
 

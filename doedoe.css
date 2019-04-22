@@ -42,6 +42,39 @@ body {
       margin-left: 20%;
       }
 
+      .dropdown {
+        display: inline-block;
+        padding: 0px;
+      }
+
+      .dropdown-content {
+        position: absolute;
+        display: none;
+        min-width: 120px;
+        z-index: 1;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+
+      .dropdown-link {
+        text-align:left;
+        display: block;
+        font-family: "Trebuchet MS", Times, serif;
+        font-size: : 16px;
+        color: #2e2e38;
+        text-align: left;
+        padding: 16px 15px;
+        text-decoration: none;
+      }
+
+      .dropdown-link:hover {
+        color: red;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block
+      }
+
 .Header {
   font-family: "Trebuchet MS", Times, serif;
   background-color: rgba(0, 0, 0, 0.7);
@@ -59,38 +92,4 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   padding-top:20px;
-}
-
-.dropdown {
-  display: inline-block;
-  padding: 0px;
-}
-
-.dropdown-content {
-  position: absolute;
-  display: none;
-  min-width: 120px;
-  z-index: 1;
-  background-color: white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-link {
-  text-align:left;
-  display: block;
-  font-family: "Trebuchet MS", Times, serif;
-  font-size: : 16px;
-  color: #2e2e38;
-  text-align: left;
-  padding: 16px 15px;
-  text-decoration: none;
-  }
-}
-
-.dropdown-link:hover {
-  color: red;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block
 }

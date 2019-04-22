@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/272b7cb5-30ae-49f0-b531-dee5f76283b6");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0px;
+    padding:0px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      height: 75px;
+      overflow: hidden;
+      background-color: white;
+    }
+
+    .navbar li {
+      float: right;
+      }
+
+    .navbar li a {
+      display: block;
+      font-family: "Trebuchet MS", Times, serif;
+      font-size: : 18px;
+      color: #2e2e38;
+      text-align: center;
+      margin-top: 10px;
+      padding: 16px 15px;
+      text-decoration: none;
+      }
+
+    .navbar li a:hover {
+      color: lightgrey;
+    }
+
+    .navbar img {
+      float: left;
+      margin-top: 10px;
+      margin-left: 20%;
+      }
+
+.Header {
+  font-family: "Trebuchet MS", Times, serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  .margin: 0px;
+  padding: 150px;
+  height: 100%;
+  width:100%;
+  text-align: center;
+}
+
+.Header h1 {
+  color: white;
+  width: 50%;
+  font-size: 70px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top:20px;
+}
+}

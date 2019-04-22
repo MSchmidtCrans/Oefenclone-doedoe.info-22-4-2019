@@ -26,7 +26,7 @@ body {
       font-family: "Trebuchet MS", Times, serif;
       font-size: : 18px;
       color: #2e2e38;
-      text-align: center;
+      .text-align: center;
       margin-top: 10px;
       padding: 16px 15px;
       text-decoration: none;
@@ -61,7 +61,7 @@ body {
   padding-top:20px;
 }
 
-div.dropdown {
+.dropdown {
   .position: relative;
   display: inline-block;
 }
@@ -70,6 +70,14 @@ div.dropdown {
   position: absolute;
   display: none;
   min-width: 150px;
+  z-index: 1;
+  background-color: white;
+  text-align: left;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  text-align:center;
 }
 
 .dropdown:hover .dropdown-content {
